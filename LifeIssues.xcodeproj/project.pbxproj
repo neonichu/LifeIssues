@@ -18,7 +18,6 @@
 		A1CCD14419BB5110003F830C /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CCD14319BB5110003F830C /* UIView+Geometry.m */; };
 		A1CCD14719BB5A00003F830C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CCD14619BB5A00003F830C /* LoginViewController.m */; };
 		A1CCD14A19BB5A3C003F830C /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CCD14919BB5A3C003F830C /* TextFieldCell.m */; };
-		A1F5A72F19BAF75E009FBD3A /* OCTUserFixed.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F5A72E19BAF75E009FBD3A /* OCTUserFixed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +42,6 @@
 		A1CCD14619BB5A00003F830C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		A1CCD14819BB5A3C003F830C /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
 		A1CCD14919BB5A3C003F830C /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
-		A1F5A72D19BAF75E009FBD3A /* OCTUserFixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTUserFixed.h; sourceTree = "<group>"; };
-		A1F5A72E19BAF75E009FBD3A /* OCTUserFixed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTUserFixed.m; sourceTree = "<group>"; };
 		E6666FC8E1694102AACBD227 /* libPods-LifeIssues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifeIssues.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,8 +115,6 @@
 				A1CCD13D19BB41FA003F830C /* GitHubClient.m */,
 				A1CCD13519BB3D51003F830C /* OCTClient+Issues.h */,
 				A1CCD13619BB3D51003F830C /* OCTClient+Issues.m */,
-				A1F5A72D19BAF75E009FBD3A /* OCTUserFixed.h */,
-				A1F5A72E19BAF75E009FBD3A /* OCTUserFixed.m */,
 			);
 			name = GitHub;
 			sourceTree = "<group>";
@@ -265,7 +260,6 @@
 				A1CCD14A19BB5A3C003F830C /* TextFieldCell.m in Sources */,
 				A1CCD14719BB5A00003F830C /* LoginViewController.m in Sources */,
 				A1CCD14119BB4678003F830C /* IssueCell.m in Sources */,
-				A1F5A72F19BAF75E009FBD3A /* OCTUserFixed.m in Sources */,
 				A1CCD13E19BB41FA003F830C /* GitHubClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

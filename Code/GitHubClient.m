@@ -10,7 +10,6 @@
 
 #import "GitHubClient.h"
 #import "OCTClient+Issues.h"
-#import "OCTUserFixed.h"
 
 static NSString* const GHAPIClientId        = @"GHAPIClientId";
 static NSString* const GHAPIClientSecret    = @"GHAPIClientSecret";
@@ -49,7 +48,7 @@ static NSString* const GHServiceKey         = @"GHServiceKey";
 
 -(void)fetchIssuesForRepositoryWithName:(NSString*)repoName
                       completionHandler:(void(^)(NSArray* issues))completionHandler {
-    OCTUser *user = [OCTUserFixed userWithRawLogin:self.username server:OCTServer.dotComServer];
+    OCTUser *user = [OCTUser userWithRawLogin:self.username server:OCTServer.dotComServer];
     OCTClient *client = [OCTClient authenticatedClientWithUser:user token:self.accessToken];
 
     RACSignal *request = [client fetchRepositoryWithName:repoName owner:self.username];
